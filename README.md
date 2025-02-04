@@ -1,13 +1,13 @@
-# Asynchronous Cache Library
+# BoltCache
 
 A high-performance, asynchronous caching library for JavaScript with customizable eviction policies and event emission.  Built for speed and flexibility in modern asynchronous environments.
 
 ## Installation
 
 ```bash
-npm install asynchronous-cache-library
+npm install BoltCache
 # or
-yarn add asynchronous-cache-library
+yarn add BoltCache
 
 const Cache = require('asynchronous-cache-library');
 
