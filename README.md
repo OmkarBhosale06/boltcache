@@ -9,7 +9,7 @@ npm install BoltCache
 # or
 yarn add BoltCache
 
-const Cache = require('asynchronous-cache-library');
+const Cache = require('boltcache');
 
 // Create a cache instance with options (maxSize, ttl, evictionPolicy)
 const cache = new Cache({ maxSize: 100, ttl: 60000, evictionPolicy: 'lru' });

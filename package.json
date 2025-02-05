@@ -1,9 +1,28 @@
 {
-  "name": "jscaching",
+  "name": "boltcache",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "A high-performance, asynchronous caching library with pluggable storage backends.",
+  "keywords": [
+    "cache",
+    "caching",
+    "asynchronous",
+    "performance",
+    "memory",
+    "redis",
+    "memcached",
+    "lru",
+    "fifo",
+    "eviction"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest"
   },
   "jest": {
@@ -12,16 +31,19 @@
       "**/?(*.)+(spec|test).js"
     ]
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmkarBhosale06/boltcache.git"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
   "dependencies": {
     "events": "^3.3.0",
     "memcached": "^2.2.2",
-    "node-cache": "^5.1.2",
-    "nodemon": "^3.1.9"
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
   }
 }
