@@ -1,6 +1,6 @@
 {
   "name": "boltcache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A high-performance, asynchronous caching library with pluggable storage backends.",
   "keywords": [
     "cache",
@@ -14,7 +14,7 @@
     "fifo",
     "eviction"
   ],
-  "main": "index.js",
+  "main": "app.js",
   "files": [
     "index.js",
     "LICENSE",
