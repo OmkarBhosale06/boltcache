@@ -1,6 +1,6 @@
 {
   "name": "boltcache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A high-performance, asynchronous caching library with pluggable storage backends.",
   "keywords": [
     "cache",
